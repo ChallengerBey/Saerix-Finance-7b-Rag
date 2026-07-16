@@ -77,7 +77,7 @@ python src/rag_pipeline.py top 5 --live --us
 
 **Saerix Finance 7B** — Fine-tuned for Turkish financial analysis.
 
-- HF Repo: [`Saerix/saerix-finance-7b`]([https://huggingface.co/Saerix/saerix-finance-7b](https://huggingface.co/ChallengerBey/saerix-finance-7b-GGUF))
+- HF Repo: [`Saerix/saerix-finance-7b`](https://huggingface.co/ChallengerBey/saerix-finance-7b-GGUF)
 - GGUF Quants: `Q4_K_M`, `Q5_K_M`, `Q8_0`
 - Context: 8192 tokens
 - License: MIT

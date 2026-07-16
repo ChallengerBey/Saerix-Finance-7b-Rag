@@ -1,0 +1,38 @@
+# Saerix Finance 7B RAG Configuration
+
+inference:
+  ollama_model: "saerix-finance-7b"
+  ollama_model_fallback: "hf.co/Saerix/saerix-finance-7b:Q4_K_M"
+  temperature: 0.1
+  top_p: 0.5
+  num_predict: 400
+  repeat_penalty: 1.1
+
+rag:
+  embedding_model: "all-MiniLM-L6-v2"
+  vector_db_path: "data/processed/faiss_index"
+  docs_path: "data/docs"
+  chunk_size: 800
+  chunk_overlap: 100
+
+symbols:
+  - "THYAO.IS"
+  - "ASELS.IS"
+  - "GARAN.IS"
+  - "AKBNK.IS"
+  - "ISCTR.IS"
+  - "YKBNK.IS"
+  - "TUPRS.IS"
+  - "EREGL.IS"
+  - "KCHOL.IS"
+  - "SAHOL.IS"
+  - "TOASO.IS"
+  - "FROTO.IS"
+  - "ARCLK.IS"
+  - "PGSUS.IS"
+  - "TCELL.IS"
+  - "TTKOM.IS"
+  - "BIMAS.IS"
+  - "MGROS.IS"
+  - "ULKER.IS"
+  - "SISE.IS"

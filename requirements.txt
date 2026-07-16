@@ -1,6 +1,20 @@
-yfinance
-pandas
-google-generativeai
-python-dotenv
-fastapi
-uvicorn
+# Core
+numpy>=1.26
+pandas>=2.2
+yfinance>=0.2.51
+faiss-cpu>=1.8
+ollama>=0.3
+sentence-transformers>=3.0
+pydantic>=2.7
+pyyaml>=6.0
+python-dotenv>=1.0
+openpyxl>=3.1
+tqdm>=4.66
+
+# Data download
+huggingface_hub>=0.23
+
+# Dev
+pytest>=8.2
+ruff>=0.4
+pyright>=1.1
